@@ -1,0 +1,89 @@
+.competence{ 
+
+    background-color: teal;
+    width: 99%;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 8px 10px 20px 10px;
+}
+
+
+.fa-js-square ,.fa-php ,.fa-node-js,.fa-laravel,.fa-react {
+    margin: 25px;
+    font-size: 30px;
+
+}
+
+.competence h1 {
+    padding: 20px;
+}
+
+.fa-js-square:hover{
+ font-size: 35px;
+ color: rgb(230, 230, 2);
+}
+
+.fa-php:hover{
+    font-size: 35px;
+    color: rgb(56, 23, 202);
+}
+
+.fa-node-js:hover{
+    font-size: 35px;
+    color: rgb(30, 235, 40);
+}
+.fa-laravel:hover{
+    font-size: 35px;
+    color: rgb(190, 65, 42);
+}
+.fa-react:hover{
+    font-size: 35px;
+    color: rgb(79, 16, 224);
+}
+
+@media only screen and (max-width: 960px) {
+    .competence{ 
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    }
+    
+
+    }
+    
+@media only screen and (max-width: 660px) {
+    .competence{ 
+
+        background-color: teal;
+        width: 99%;
+        border: 1px solid black;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 8px 10px 20px 10px;
+    }
+    
+    
+    }
+
+    
+@media only screen and (max-width: 484px) {
+    .competence{ 
+
+        background-color: teal;
+        width: 99%;
+        border: 1px solid black;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 8px 10px 20px 10px;
+    }
+    
+       
+        
+        }

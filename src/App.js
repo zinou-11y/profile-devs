@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import Navbar from './components/Navbar/Navbar'
 import './App.css';
+import Profile from './components/HeroSection/Profile';
+import Softskills from './components/soft skills/Softskills';
+import Competence from './components/competence/Competence';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar></Navbar>
+      <Profile></Profile>
+      <Softskills></Softskills>
+      <Competence></Competence>
     </div>
   );
 }
